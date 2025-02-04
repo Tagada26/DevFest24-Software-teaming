@@ -1,16 +1,17 @@
 import { describe, it, expect } from "vitest";
 
 const guessNearestColor = () => {
-  //Todo
+  return "let's have fun together";
 };
 
-describe("Guess nearest primary colors", () => {
-  it("My first test ", () => {
+describe("My first mob kata", () => {
+  it("", () => {
     //Given
+
     //When
     const nearestColor = guessNearestColor();
 
     //Then
-    expect(nearestColor).toBeDefined;
+    expect(nearestColor).toBeDefined();
   });
 });
